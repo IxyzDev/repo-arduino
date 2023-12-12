@@ -1,0 +1,23 @@
+# Ignorar archivos de compilación de Arduino
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.lst
+
+# Ignorar archivos generados por el IDE de Arduino
+*.backup
+*.cpp.orig
+*.cpp.d
+*.o
+
+# Ignorar la carpeta de compilación
+/build/
+
+# Ignorar archivos temporales
+*.swp
+
+# Ignorar archivos de configuración local (puede variar según tu IDE)
+/.vscode/
+/.idea/
